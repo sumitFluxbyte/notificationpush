@@ -1,5 +1,5 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
-import { AppService } from './app.service';
+import { AppService } from 'src/app.service';
 import * as webpush from 'web-push';
 interface SubscriptionData {
   // Define the properties you expect in the subscription data
